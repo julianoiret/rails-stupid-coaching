@@ -1,0 +1,38 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.you-container {
+  width: 40%;
+  border-left: 5px solid #000000;
+}
+
+.coach-container {
+  width: 40%;
+  border-left: 5px solid #000000;
+  background-color: #ffffe1;
+}
+
+.coach-container p, .you-container p {
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: lightgray;
+  padding-left: 20px;
+}
+
+ a {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
+
+.first {
+  font-size: 20px;
+  font-weight: bold;
+}
